@@ -1,0 +1,158 @@
+/* space */
+.space {
+    height: 10vh;
+}
+/* space */
+
+/* box-shadow-#18 */
+.bs-18 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 25px;
+}
+/* box-shadow-#18 */
+
+/* box-shadow-#19 */
+.bs-19 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 25px;
+}
+/* box-shadow-#19 */
+
+/* a-links */
+a {
+    text-decoration: none;
+    color: #107db4;
+}
+/* a-links */
+
+/* paragraph */
+p {
+    /* text-align:justify/left/right/center; */
+    text-align:justify;
+    text-justify: values;
+}
+/* paragraph */
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #107db4;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+/* headings */
+
+/* auto=scroll-top */
+.arrow{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}
+.arrow a{
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #107db4;
+    display: block;
+    border-radius: 3px;
+}
+.arrow a:hover {
+    background: #f2f2f2;
+}
+.arrow a span{
+    color: #f2f2f2;
+    font-size: 27px;
+    line-height: 39px;
+    cursor: pointer;
+}
+.arrow a span:hover {
+    color: #107db4;
+}
+/* auto=scroll-top */
+
+/* design-element */
+.design-element {
+    background: url(./images/utility/Design-Element.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 20vh;
+}
+/* design-element */
+
+/* -----------------------------------------++++++++++++++++++++++++++++++++++++++++++--------------------------------------------- */
+
+/* accordion */
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+/* accordion */
+
+/* --------------------++++++++++++++++++++-------------------- */
+
+.footer {
+    background: url(./images/utility/Footer-BG.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-size: 100% 100%;
+}
+/* --------------------++++++++++++++++++++-------------------- */

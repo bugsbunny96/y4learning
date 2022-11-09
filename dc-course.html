@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/3af28180df.js" crossorigin="anonymous"></script>
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/asset.css">
+
+    <!-- style -->
+    <style>
+            
+      .course{background-color: #107db4;border-radius: 27px;width: 100%;overflow: hidden;margin: 50px auto;padding: 20px;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;}
+      img{border: 2px solid #fff; border-radius: 27px;}
+      
+      .course button:first-of-type{float: left;}
+      .course button:last-of-type{float: right;}
+      
+    </style>
+    <!-- style -->
+
+    <title>Y4L</title>
+    <link rel="icon" type="image/x-icon" href="./asset/images/utility/Logo-Icon.png">
+</head>
+<body>
+  <div class="infostrip">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex flex-row">
+        <div class="p-2"><a href="mailto:info@y4l.com"><i class="fa-solid fa-envelope"></i> : info@y4l.com</a></div>
+        <div class="p-2"><a href="tel:+919876543210"><i class="fa-solid fa-phone"> : +919876543210</i></a></div>
+      </div>
+      <div class="d-flex flex-row-reverse">
+        <div class="p-2"><a href="http://www.fb.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a></div>
+        <div class="p-2"><a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></div>
+        <div class="p-2"><a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a></div>
+      </div>
+    </div>
+  </div>
+
+    <!-- navbar -->
+    <nav class="container navbar navbar-expand-lg">
+      <div class="brand d-flex flex-row justify-content-center align-items-center">
+          <a class="logo" href="./index.html"><img src="./asset/images/utility/Full-Logo.png" alt="Logo" style="width: 190px;"></a>
+      </div>
+      <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon d-flex justify-content-center align-items-center btn-danger"><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="menu collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav d-flex justify-content-between align-items-center mx-5 me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="./courses.html">Courses</a></li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-danger fw-bold" href="#">DOCUMENTARY CREDIT</a></li>
+                  <li><a class="dropdown-item text-danger fw-bold" href="#">STANDBY LETTER OF CREDIT</a></li>
+                  <li><a class="dropdown-item text-danger fw-bold" href="#">BANK GUARANTEE</a></li> -->
+                  <!-- <li><a class="dropdown-item text-danger fw-bold" href="#">DOCUMENTARY COLLECTION</a></li> -->
+                  <!-- <li><a class="dropdown-item text-danger fw-bold" href="#">INCO TERMS</a></li> -->
+                  <!-- <li><a class="dropdown-item text-danger fw-bold" href="#">FACTORING AND IMPORT LENDING</a></li> -->
+                <!-- </ul>
+              </li> -->
+              <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="./landing.html">Login/Signin &nbsp; <i class="fa-solid fa-id-card"></i></a></li>
+          </ul>
+      </div>
+      <div class="brand d-flex flex-row justify-content-center align-items-center">
+        <a class="logo" href="./index.html"><img src="./asset/images/utility/2-Logo.png" alt="Logo"></a>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- Banner -->
+    <img src="./asset/images/Banner/documentary.jpg" alt="" style="width:100%">
+    <!-- Banner -->
+
+    <!-- notice-line -->
+    <!-- notice-line -->
+
+    <!-- auto-sccroll-top -->
+    <div class="arrow">
+      <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+    </div>
+    <!-- auto-sccroll-top -->
+
+    <div class="space"></div>
+
+    <!-- section-1 -->
+    <div class="container">
+        
+      <div class="course">
+        <img src="./asset/images/Presentation/Documentry Credit/Documentry Credit-01.jpg" id="slide" alt="" width="100%">
+        <div class="d-flex justify-content-center align-items-center p-2">
+          <audio src="./asset/audio/dc/documentary credit.wav" id="slideAudio" controls></audio>
+        </div>
+        <button class="btn btn-outline-light rounded-pill fw-bold fs-5" onclick="mySlide('prev');">< Previous</button>
+        <button class="btn btn-outline-light rounded-pill fw-bold fs-5" onclick="mySlide('next');">Next ></button>
+      </div>
+
+    </div>
+    <!-- section-1 -->
+
+    <div class="container">
+      <a href="./test-dc.html" class="btn btn-outline-primary rounded-pill fw-bolder">Take Test &ThickSpace;<i class="fa-solid fa-laptop-file"></i></a>
+    </div>
+    <div class="space"></div>
+
+    <!-- Footer -->
+    <div class="py-2 px-5 footer mt-5">
+      <div class="d-flex justify-content-center align-items-center px-2">
+        <a class="logo" href="./index.html"><img src="./asset/images/utility/Full-Logo.png" alt="Logo" style="width: 190px;"></a>
+      </div>
+      <div class="row d-flex flex-wrap justify-content-between align-items-top">
+        <div class="col mx-3">
+          <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px;">About</h2>
+          <p class="text-dark text"><strong>Sign Up, Learn, and Grow!</strong><br>
+            Yield 4 learning brings forth a digital platform aiming to educate the current market about the trade finance industry.<br>
+            <span><a href="./about.html" class="btn btn-outline-primary rounded-pill fw-bold mt-2">Read More</a></span>
+          </p>
+        </div>
+        <div class="col mx-3">
+          <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px;">Courses</h2>
+          <ul style="list-style: none; margin-left: -30px">
+            <li class="mt-2">
+              <a href="./doc-credit.html">DOCUMENTARY CREDIT</a>
+            </li>
+            <li class="mt-2">
+              <a href="./slc.html">STANDBY LETTER OF CREDIT</a>
+            </li>
+            <li class="mt-2">
+              <a href="./bank-guarantee.html">BANK GUARANTEE</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mx-3">
+          <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px;">Contact</h2>
+          <ul style="list-style: none; margin-left: -30px">
+            <!-- <li><a style="text-decoration: none;" href="https://goo.gl/maps/mf1EgApx1KxDMf8s7"><li class="mt-2 text-decoration-none text text-dark"><span><i class="fa-solid fa-location-dot"></i></span>&nbsp;  PVC6+X8J, Mansa Devi Complex, Lajwanti Dharamshala, Panchkula, Haryana 134114</li></a></li> -->
+            <li><a style="text-decoration: none;" href="tel:+447749885797"><li class="mt-2 text-decoration-none text text-dark"><span><i class="fa-solid fa-phone-volume"></i></span>&nbsp; +44 7749 885797</li></a></li>
+            <li><a style="text-decoration: none;" href="mailto:vipul@yield4finance.com?subject=ContactMailFooter&body=The user wants to contact you, please respond back."><li class="mt-2 text-decoration-none text text-dark"><span><i class="fa-solid fa-envelopes-bulk"></i></span>&nbsp; vipul@yield4finance.com</li></a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Copyright -->
+      <div class="row">
+          <hr class="border-2 my-2 border-top border-dark" style="width: 97%;">
+      </div>
+      <div class="row d-flex align-items-center text-center mx-2">
+        <div class="col text text-dark my-1">
+          <p class="me-3 d-flex justify-content-center">
+            <!-- © Copyright @ 2022. All Right Reserved. | &nbsp;<span> Developed By: &nbsp; <a href="https://ragaadvertisers.com/" target="_blank" class="text text-decoration-none text-danger"><strong>RAGA ADVERTISERS</strong></a></span> -->
+            © Copyright @ 2022. All Right Reserved. | Developed By: &nbsp; <a href="https://ragaadvertisers.com/" target="_blank" class="text text-decoration-none text-danger"><strong>RAGA ADVERTISERS</strong></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+
+    <!-- Bootstrap-JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <script src="./asset/app.js"></script>
+
+    <!-- script -->
+    <script>
+            
+      var i = 0,images = ["./asset/images/Presentation/Documentry Credit/Documentry Credit-01.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-02.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-03.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-04.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-05.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-06.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-07.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-08.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-09.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-10.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-11.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-12.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-13.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-14.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-15.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-16.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-17.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-18.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-19.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-20.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-21.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-22.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-23.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-24.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-25.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-26.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-27.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-28.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-29.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-30.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-31.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-32.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-33.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-34.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-35.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-36.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-37.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-38.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-39.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-40.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-41.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-42.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-43.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-44.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-45.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-46.jpg",
+                          "./asset/images/Presentation/Documentry Credit/Documentry Credit-47.jpg"];
+                      
+      var j = 0,audio = ["./asset/audio/dc/documentary credit.wav",
+                          "./asset/audio/dc/02.wav",
+                          "./asset/audio/dc/03.wav",
+                          "./asset/audio/dc/04.wav",
+                          "./asset/audio/dc/05.wav",
+                          "./asset/audio/dc/06.wav",
+                          "./asset/audio/dc/07.wav",
+                          "./asset/audio/dc/08.wav",
+                          "./asset/audio/dc/09.wav",
+                          "./asset/audio/dc/10.wav",
+                          "./asset/audio/dc/11.wav",
+                          "./asset/audio/dc/12.wav",
+                          "./asset/audio/dc/13.wav",
+                          "./asset/audio/dc/14.wav",
+                          "./asset/audio/dc/15.wav",
+                          "./asset/audio/dc/16.wav",
+                          "./asset/audio/dc/17.wav",
+                          "./asset/audio/dc/18.wav",
+                          "./asset/audio/dc/19.wav",
+                          "./asset/audio/dc/20.wav",
+                          "./asset/audio/dc/21.wav",
+                          "./asset/audio/dc/22.wav",
+                          "./asset/audio/dc/23.wav",
+                          "./asset/audio/dc/24.wav",
+                          "./asset/audio/dc/25.wav",
+                          "./asset/audio/dc/26.wav",
+                          "./asset/audio/dc/27.wav",
+                          "./asset/audio/dc/28.wav",
+                          "./asset/audio/dc/29.wav",
+                          "./asset/audio/dc/30.wav",
+                          "./asset/audio/dc/31.wav",
+                          "./asset/audio/dc/32.wav",
+                          "./asset/audio/dc/33.wav",
+                          "./asset/audio/dc/34.wav",
+                          "./asset/audio/dc/35.wav",
+                          "./asset/audio/dc/36.wav",
+                          "./asset/audio/dc/37.wav",
+                          "./asset/audio/dc/38.wav",
+                          "./asset/audio/dc/39.wav",
+                          "./asset/audio/dc/40.wav",
+                          "./asset/audio/dc/41.wav",
+                          "./asset/audio/dc/42.wav",
+                          "./asset/audio/dc/43.wav",
+                          "./asset/audio/dc/44.wav",
+                          "./asset/audio/dc/45.wav",
+                          "./asset/audio/dc/46.wav",
+                          "./asset/audio/dc/47.wav"];
+
+    function mySlide(param)
+    {
+        if(param === 'next')
+        {
+            i++;
+            if(i === images.length){ i = images.length - 1; };
+            j++;
+            if(j === audio.length){ j = audio.length - 1; };
+        }
+        else{
+            i--;
+            if(i < 0){ i = 0; };
+            j--;
+            if(j < 0){ j = 0; };
+        }
+        
+        document.getElementById('slide').src = images[i];
+        document.getElementById('slideAudio').src = audio[j];
+    }
+      
+    </script>
+    <!-- script -->
+</body>
+</html>
